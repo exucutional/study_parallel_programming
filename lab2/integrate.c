@@ -45,7 +45,7 @@ const long double acc = 1e-5;
 const long num_threads = 4;
 
 long double f(long double x) {
-    return sin(1.0 / x);
+    return sinl(1.0 / x);
 }
 
 int break_cond(long double sACB, long double sAB) {
